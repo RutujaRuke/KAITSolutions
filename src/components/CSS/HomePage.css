@@ -1,0 +1,279 @@
+/* --------------Home Page1 CSS Start ----------------------*/
+
+.Home1-container{
+    background-color: rgb(97, 131, 234);
+    height: 30rem;
+    display: flex;
+}
+.Home1-left{
+    margin-top: 5.5rem;
+    padding: 6rem 6rem 7rem 4.5rem;
+    
+    color: aliceblue;
+}
+.Home1-left .p1{
+    font-size: 2.5rem;
+}
+.Home1-left .p2{
+    font-size: 2.5rem;
+}
+.Home1-left .p3{
+    font-size: 2rem;
+}
+.btn{
+    background-color: rgb(7, 7, 51);
+    color: white;
+}
+
+.Home1-right img {
+    animation: moveUpDown 3s ease-in-out infinite;
+    width: 30rem;
+    height: 28rem;
+    padding-top: 8rem;
+    padding-bottom: 0;
+    padding-right: 2rem;
+}
+
+@keyframes moveUpDown {
+    0%, 100% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-20px);
+    }
+}
+
+
+/* Media Queries for Responsiveness */
+@media (max-width: 768px) {
+    .Home1-container {
+      flex-direction: column;
+      height: auto;
+      padding: 2rem;
+    }
+  
+    .Home1-left {
+      margin-top: 0;
+      padding: 2rem;
+      text-align: center;
+    }
+  
+    .Home1-left .p1, .Home1-left .p2 {
+      font-size: 1.8rem;
+    }
+  
+    .Home1-left .p3 {
+      font-size: 1.5rem;
+    }
+  
+    .Home1-right img {
+      width: 100%;
+      height: auto;
+      padding-top: 2rem;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .Home1-left {
+      padding: 1rem;
+    }
+  
+    .Home1-left .p1, .Home1-left .p2 {
+      font-size: 1.5rem;
+    }
+  
+    .Home1-left .p3 {
+      font-size: 1.2rem;
+    }
+  }
+/* --------------Home Page1 CSS End ----------------------*/
+
+/* --------------Home Page2 CSS Start ----------------------*/
+
+.a-heading{
+    font-size: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2.5rem;
+
+}
+.a-containter{
+   background-color: light wheat;
+   display: flex;
+   align-items: center;
+   padding: 2.5rem 4rem 4rem 4rem;
+}
+.a-image img{
+   border-radius: 2rem;
+   height: 20rem;
+   width: 40rem;
+   position: inherit;
+
+}
+
+.a-content{
+   border-radius:20px solid,black ;
+   margin-left:5rem ;
+   color: black;
+   font-family: Arial, Helvetica, sans-serif;
+
+}
+
+
+
+/* Media Queries for Responsiveness */
+@media (max-width: 768px) {
+    .a-container {
+      flex-direction: column;
+      padding: 2rem;
+      
+    }
+  
+    .a-image img {
+      width: 100%;
+      height: 100%;
+      position: inherit;
+    }
+  
+    .a-content {
+      margin-left: 0;
+      margin-top: 2rem;
+    }
+  
+    .a-heading {
+      font-size: 2rem;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .a-container {
+      padding: 1rem;
+    }
+  
+    .a-content {
+      font-size: 1rem;
+    }
+  
+    .a-heading {
+      font-size: 1.5rem;
+    }
+  }
+/* --------------Home Page2 CSS End ----------------------*/
+
+/* --------------Home Page3 CSS Start ----------------------*/
+
+.a1-container{
+    /* height: 700px;
+    width: 1000px;  */
+    background-color:rgb(124, 150, 218);
+    margin-left: 0px;
+    padding: 0px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    font-family: Arial, sans-serif;
+
+ }
+.a1-requirement{
+    font-size: 1rem;
+    margin-left: 3rem;
+    /* position: fixed; */
+}
+
+.a1-image img{
+    width: 40rem;
+}
+ 
+
+/* src/FAQ.css */
+.faq {
+    width: 80%;
+    margin: 2rem 2rem 2rem 2rem;
+    font-family: Arial, sans-serif;
+    
+  }
+  
+  .faq h2 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .faq-item {
+    border-bottom: 1px solid #ccc;
+    padding: 1rem;
+    margin: 1rem;
+  }
+  
+  .faq-question {
+    display: flex;
+    justify-content: space-between;
+    cursor: pointer;
+    font-weight: bold;
+  }
+  
+  .arrow {
+    transition: transform 0.3s;
+  }
+  
+  .arrow.open {
+    transform: rotate(180deg);
+  }
+  
+  .faq-answer {
+    margin-top: 10px;
+    padding-left: 20px;
+  }
+  
+
+/* --------------Home Page3 CSS End ----------------------*/
+/* --------------Home Page4 CSS End ----------------------*/
+
+.technology-heading{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem 1rem 2rem 1rem;
+}
+.tec-h1{
+    color: rgb(30, 16, 93);
+}
+
+.div-row1{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 1rem;
+}
+.div-row2{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 1rem;
+
+}
+
+.box-1 {
+    width: 12rem;
+    height: 12rem;
+    /* background-color: rgb(210, 208, 205); */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: transform 0.3s, box-shadow 0.3s;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2), 0 6px 20px rgba(0, 0, 0, 0.19);
+
+  }
+  
+  .box-1:hover {
+    transform: scale(1.1);
+  }
+
+.html-image{
+    width: 6rem;
+    /* border-radius: 10rem; */
+}
+  
+
+/* --------------Home Page4 CSS End ----------------------*/
+
+
+

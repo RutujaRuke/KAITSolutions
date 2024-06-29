@@ -1,0 +1,85 @@
+/* ----------- CareerPage1 CSS Start----------------- */
+.contact1-container {
+    background-color: rgb(97, 131, 234);
+    height: 31rem;
+    display: flex;
+}
+
+.contact1-left {
+    margin-top: 5rem;
+    padding: 6.5rem 6rem 7rem 4.5rem;
+
+    color: aliceblue;
+}
+
+.contact1-left .p1 {
+    font-size: 2.5rem;
+}
+
+.contact1-left .p2 {
+    font-size: 2.5rem;
+}
+
+.contact1-left .p3 {
+    font-size: 1.4rem;
+}
+
+.btn {
+    background-color: rgb(7, 7, 51);
+    color: white;
+}
+
+.contact1-right img {
+    animation: moveUpDown 3s ease-in-out infinite;
+    width: 28rem;
+    height: 30rem;
+    padding-top: 7rem;
+    padding-bottom: 0;
+}
+
+@keyframes moveUpDown {
+
+    0%,
+    100% {
+        transform: translateY(0);
+    }
+
+    50% {
+        transform: translateY(-20px);
+    }
+}
+
+/* ------------------ CareerPage1 CSS End ------------------ */
+/* ------------------ CareerPage2 CSS Start ------------------ */
+
+.career-container{
+    /* display: flex; */
+    justify-content: center;
+    padding: 3rem 9rem;
+}
+.career1{
+    display: flex;
+    background-color: rgb(240, 237, 237);
+    border-radius: 1rem;
+    padding: 1rem;
+    margin-bottom: 2rem;
+}
+.job-button{
+    border-radius: 0.5rem;
+    margin: 0.5rem;
+    padding: 0.2rem;
+}
+.job-desc{
+    color: rgb(58, 57, 57);
+    font-size: 1.3rem;
+}
+.apply-btn{
+    background-color: rgb(15, 24, 92);
+    color: aliceblue;
+    padding: 0.4rem 0.5rem ;
+    border-radius: 0.8rem;
+    /* margin-left: 12rem; */
+}
+
+
+/* ------------------ CareerPage2 CSS End ------------------ */

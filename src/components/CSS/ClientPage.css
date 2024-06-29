@@ -1,0 +1,129 @@
+/* ----------- ClientPage1 CSS Start----------------- */
+.contact1-container {
+    background-color: rgb(97, 131, 234);
+    height: 31rem;
+    display: flex;
+}
+
+.contact1-left {
+    margin-top: 5rem;
+    padding: 6.5rem 6rem 7rem 4.5rem;
+
+    color: aliceblue;
+}
+
+.contact1-left .p1 {
+    font-size: 2.5rem;
+}
+
+.contact1-left .p2 {
+    font-size: 2.5rem;
+}
+
+.contact1-left .p3 {
+    font-size: 2rem;
+}
+
+.btn {
+    background-color: rgb(7, 7, 51);
+    color: white;
+}
+
+.contact1-right img {
+    animation: moveUpDown 3s ease-in-out infinite;
+    width: 25rem;
+    height: 30rem;
+    padding-top: 7rem;
+    padding-bottom: 0;
+}
+
+@keyframes moveUpDown {
+
+    0%,
+    100% {
+        transform: translateY(0);
+    }
+
+    50% {
+        transform: translateY(-20px);
+    }
+}
+
+/* ------------------ ClientPage1 CSS End ------------------ */
+/* ------------------ ClientPage2 CSS Start ------------------ */
+
+.client{
+    padding: 3rem,1rem,3rem,1rem;
+    margin:1rem,3rem,1rem,3rem ;
+   
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.client-info {
+    /* padding: 3rem,2rem,3rem,2rem; */
+    margin-right: 2rem;
+    margin-left: 2rem;
+    
+    font-size: 17px;
+    margin-top: 0%;
+
+}
+.client-info p{
+    font-size: 17px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.client-img img{
+    height: 300px;
+    width: 500px;
+    border-radius: 15px;
+    margin-right: 6rem;
+}
+.client-btn{
+    background-color: rgb(74, 74, 243);
+    color: aliceblue;
+}
+.client1{
+    padding: 3rem,1rem,3rem,1rem;
+    margin:1rem,3rem,1rem,3rem ;
+   
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.client1-info{
+   
+    
+    font-size: 17px;
+    margin-top: 0%;
+    text-align: left;
+    
+}
+.client2{
+    height: 300px;
+    width: 500px;
+    border-radius: 15px;
+    margin-right: 6rem;
+
+
+}
+.client1-info h2{
+    font-size: 30px;
+    color: red;
+}
+.client4{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.client5{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.client5img img{
+    height: 110px;
+    width: 110px;
+}
+/* ------------------ ClientPage2 CSS End ------------------ */
+

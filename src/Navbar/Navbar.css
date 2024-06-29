@@ -1,0 +1,58 @@
+/* Ensure the navbar spans the full width of the viewport */
+
+.navbar {
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000; /* Ensure it stays on top of other elements */
+    background-color: rgb(7, 13, 59); /* Background color to ensure it's visible */
+}
+/* .navbar-text */
+/* Additional styling for the navbar */
+.karishnaAcademy{
+    margin-left: 2rem;
+}
+
+.logo-icon{
+    width: 20px;
+    height: 10px;
+}
+.navbar-brand {
+    /* font-weight: bold; */
+    color: #faf6f6;
+    margin-right: 10rem;
+    
+}
+.navbar-nav{
+    /* margin-left: 20rem; */
+    justify-content: space-between;
+}
+.navbar-brand:hover{
+    color: #faf6f6;
+}
+
+.nav-link {
+    color: #faf6f6;
+    font-size: 16px;
+    display: flex;
+    transition: color 0.3s ease; /* Smooth transition for color change */
+    align-items: center; /* Align items vertically in the navbar */
+    justify-content: space-between;
+    padding: 1.5rem;
+    margin-left: 3rem;
+}
+
+.nav-link:hover {
+    color: grey;
+}
+
+.navbar-toggler {
+    border: none;
+    background-color: #faf6f6;
+}
+
+/* Styling for the dropdown */
+.navbar-nav .dropdown-menu {
+    position: absolute;
+}
